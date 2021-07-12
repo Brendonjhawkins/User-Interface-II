@@ -45,22 +45,25 @@ nav a{
 }
 .second{
     width:100%;
-    /* border:solid 1px black; */
+    border:solid 1px black;
     display:flex;
     justify-content:space-evenly;
     height:75vh; 
     margin-bottom: 20px;
 }
 .left{
-    border:solid 1px black;
+    /* border:solid 1px black; */
     width:49.5%;
     display:flex;
     justify-content: center;
-    background-image: url('https://picsum.photos/600/250?grayscale');
+    /* background-image: url('https://picsum.photos/600/250?grayscale'); */
 }
-.leftImg{
+.left div{
     background-image: url('https://picsum.photos/600/250?grayscale');
-    width:100%;
+    width:650px;
+    display:flex;
+    justify-content: center;
+    border:solid 1px black;
 }
 .right{
     border:solid 1px black;
